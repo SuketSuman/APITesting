@@ -24,3 +24,9 @@ Scenario: Verify status code and message in response when a employee is deleted
 	Then the status code is 200
 	And "message" in response body is "Successfully! Record has been deleted"
 	
+Scenario: Verify status code and message in response when user get all employees
+	Given get all employees
+	When user calls getAllAPI with GET request
+	Then the status code is 200
+	And "message" in response body is "Successfully! All records has been fetched."
+	

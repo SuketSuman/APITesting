@@ -103,4 +103,20 @@ public class sd {
 		response =res.when().delete("/api/v1/delete/2")
 				.then().extract().response();
 	}
+	@Given("get all employees")
+	public void get_all_employees() throws FileNotFoundException {
+	    // Write code here that turns the phrase above into concrete actions
+		RestAssured.baseURI= "http://dummy.restapiexample.com";
+		PrintStream ps= new PrintStream(new FileOutputStream("loggingGetAllemployee.txt"));
+		res = given()
+				.filter(RequestLoggingFilter.logRequestTo(ps))
+				.filter(ResponseLoggingFilter.logResponseTo(ps));
+	}
+
+	@When("user calls getAllAPI with GET request")
+	public void user_calls_get_all_api_with_get_request() {
+	    // Write code here that turns the phrase above into concrete actions
+		response =res.when().get("/api/v1/employees")
+				.then().extract().response();
+	}
 }

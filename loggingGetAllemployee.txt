@@ -1,5 +1,5 @@
-Request method:	DELETE
-Request URI:	http://dummy.restapiexample.com/api/v1/delete/2
+Request method:	GET
+Request URI:	http://dummy.restapiexample.com/api/v1/employees
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -12,23 +12,23 @@ Body:			<none>
 HTTP/1.1 429 Too Many Requests
 Content-Encoding: gzip
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 20 Sep 2020 16:47:48 GMT
+Date: Sun, 20 Sep 2020 16:47:49 GMT
 Display: staticcontent_sol
-Expires: Sat, 19 Sep 2020 16:47:48 GMT
+Expires: Sat, 19 Sep 2020 16:47:49 GMT
 Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
 Pagespeed: off
 Referrer-Policy: 
 Response: 429
-Retry-After: 33
+Retry-After: 31
 Server: nginx/1.16.0
 Vary: Accept-Encoding
-Vary: Accept-Encoding,Origin
+Vary: Accept-Encoding,User-Agent,Origin
 X-Ezoic-Cdn: Miss
 X-Middleton-Display: staticcontent_sol
 X-Middleton-Response: 429
 X-Ratelimit-Limit: 60
 X-Ratelimit-Remaining: 57
-X-Ratelimit-Reset: 1600620501
+X-Ratelimit-Reset: 1600620500
 X-Sol: pub_site
 Transfer-Encoding: chunked
 
@@ -74,7 +74,7 @@ var adUnitName=__ez.dot.getAdUnitPath(adSlot).split('/').pop();if(typeof _ezim_d
 for(var ezimKey in _ezim_d){if(ezimKey.split('/').pop()===adUnitName){return _ezim_d[ezimKey];}}
 return false;}
 return{Add:AddPixel,AddAndFire:AddAndFirePixel,AddById:AddPixelById,Fire:Fire,GetPixels:GetCurrentPixels,};})();__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=191-6&amp;cb=1', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/tampa.js', '/detroitchicago/tampa.js?gcb=191-6&amp;cb=1', false, [], true, false, true, false);</script>
-    <script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_count_adjustment":0,"ad_lazyload_version":0,"ad_location_ids":"","ad_transform_level":0,"adx_ad_count":0,"bidder_method":3,"bidder_version":5,"city":"Patna","country":"IN","days_since_last_visit":-1,"display_ad_count":0,"domain_id":133674,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":1,"forensiq_score":-1,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":0,"metro_code":0,"optimization_version":4,"page_ad_positions":"","page_view_count":0,"page_view_id":"cf0caf2f-5b3a-4c26-56c5-0940b63a4495","position_selection_id":0,"postal_code":"800001","pv_event_count":0,"response_time_orig":749,"serverid":"54.255.117.143:12931","state":"BR","sub_page_ad_positions":"","t_epoch":1600620467,"template_id":0,"time_on_site_visit":0,"url":"http://dummy.restapiexample.com/api/v1/delete/2","user_id":0,"word_count":0,"worst_bad_word_level":0};var _ezim_d = null;var _ezat = {"domain_id":133674,"form_factor_id":1,"framework_id":1,"pageview_date":"2020-09-20","pageview_id":"cf0caf2f-5b3a-4c26-56c5-0940b63a4495","template_id":0,"url":"http://dummy.restapiexample.com/api/v1/delete/2","visit_uuid":"a966930b-1167-4c11-643b-c73efe1f39ab"};</script>
+    <script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_count_adjustment":0,"ad_lazyload_version":0,"ad_location_ids":"","ad_transform_level":0,"adx_ad_count":0,"bidder_method":1,"bidder_version":3,"city":"Patna","country":"IN","days_since_last_visit":-1,"display_ad_count":0,"domain_id":133674,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":1,"forensiq_score":-1,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":0,"metro_code":0,"optimization_version":1,"page_ad_positions":"","page_view_count":0,"page_view_id":"04fe548b-5b3e-4be4-629f-02996659cb17","position_selection_id":0,"postal_code":"800001","pv_event_count":0,"response_time_orig":734,"serverid":"54.179.151.113:15002","state":"BR","sub_page_ad_positions":"","t_epoch":1600620469,"template_id":0,"time_on_site_visit":0,"url":"http://dummy.restapiexample.com/api/v1/employees","user_id":0,"word_count":0,"worst_bad_word_level":0};var _ezim_d = null;var _ezat = {"domain_id":133674,"form_factor_id":1,"framework_id":1,"pageview_date":"2020-09-20","pageview_id":"04fe548b-5b3e-4be4-629f-02996659cb17","template_id":0,"url":"http://dummy.restapiexample.com/api/v1/employees","visit_uuid":"19caa9dd-8c1b-4301-4628-859a4a6d7c17"};</script>
     <script data-ezscrex="false" data-pagespeed-no-defer="data-pagespeed-no-defer" data-cfasync="false" type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=191-6&amp;bv=86&amp;v=35&amp;PageSpeed=off', true, [], true, false, false, true);</script>
     <script data-ezscrex="false" data-cfasync="false">(function(){if("function"===typeof window.CustomEvent)return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,cancelable:!1,detail:null};var b=document.createEvent("CustomEvent");b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}})();</script>
     <script data-ezscrex="false" data-cfasync="false">__ez.queue.addFile('/detroitchicago/tulsa.js', '/detroitchicago/tulsa.js?gcb=191-6&amp;cb=2', false, [], true, false, true, false);</script>
@@ -149,7 +149,7 @@ _gaq.push(['f._trackPageview']);
 })();
 </script>
     <script type="text/javascript">var ezouid = "1";</script>
-    <base href="http://dummy.restapiexample.com/api/v1/delete/2"/>
+    <base href="http://dummy.restapiexample.com/api/v1/employees"/>
     <script type="text/javascript">
 var ezoTemplate = 'pub_site_noads';
 if(typeof ezouid == 'undefined')
@@ -197,7 +197,7 @@ function attach_ezolpl(pvID, rv) {
     }
 }
 
-__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["cf0caf2f-5b3a-4c26-56c5-0940b63a4495", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["04fe548b-5b3e-4be4-629f-02996659cb17", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
 </script>
   </head>
   <body>
