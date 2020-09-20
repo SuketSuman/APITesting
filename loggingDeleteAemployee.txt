@@ -1,0 +1,36 @@
+Request method:	DELETE
+Request URI:	http://dummy.restapiexample.com/api/v1/delete/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Type: application/json
+Date: Sun, 20 Sep 2020 16:34:55 GMT
+Display: staticcontent_sol
+Expires: Mon, 20 Sep 2021 16:34:55 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx/1.16.0
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: pub_site
+Content-Length: 81
+
+{
+    "status": "success",
+    "data": "2",
+    "message": "Successfully! Record has been deleted"
+}
